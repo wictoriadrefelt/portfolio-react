@@ -5,9 +5,11 @@ import NavBar from "../navbar/Navbar";
 
 const Header: React.FC = () => {
 return ( 
+    <div className='header'>
+        <NavBar/>
+    </div>
   
-    /// Shpuld take in a navbar with navitems?
-    <NavBar/> 
+    
 ) 
 }
 
