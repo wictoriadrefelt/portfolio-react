@@ -17,7 +17,7 @@ const NavBarItems : React.FC = () => {
 		setOpen(false);
 	};
     return (
-       <div> 
+       <div className='navbar'> 
         <ul className={open ? 'nav-links-active' : 'nav-links'}>
             <li className='nav-item'>
                 <Link to="/" className='nav-link' onClick={() => setOpen(false)}>

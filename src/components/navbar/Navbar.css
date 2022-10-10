@@ -1,13 +1,11 @@
 .navbar {
 	height: 80px;
-	width: 100%;
-	background: blue;
-	color: white;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 2rem;
-	font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
 .nav-logo {
@@ -24,7 +22,7 @@
 
 .nav-link {
 	text-decoration: none;
-	color: white;
+	color: black;
 	transition: 0.3s all;
 }
 
@@ -55,7 +53,6 @@
 	}
 
 	.nav-links.active {
-		background: blue;
 		left: 0;
 	}
 
@@ -65,7 +62,4 @@
 		border-bottom: 1px solid red;
 	}
 
-	.nav-icon {
-		display: flex;
-	}
 }
